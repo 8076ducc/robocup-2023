@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "VNH5050ATR-E")(type "Legacy")(uri "/Users/hj/Documents/RoboCup/8076 Robotics/robocup-2023/electrical design/symbols and footprints/VNH5050ATR-E/VNH5050ATR-E.lib")(options "")(descr ""))
+  (lib (name "VNH5050A-E")(type "Legacy")(uri "/Users/hj/Documents/RoboCup/8076 Robotics/robocup-2023/electrical design/symbols and footprints/VNH5050A-E/VNH5050A-E.lib")(options "")(descr ""))
+)

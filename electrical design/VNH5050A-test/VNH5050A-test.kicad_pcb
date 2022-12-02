@@ -349,7 +349,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a458d6a-a84c-4faf-913e-90bab231d3f8)
     )
-    (fp_text value "33nF" (at -3.474191 0.1246) (layer "F.Fab")
+    (fp_text value "33nF" (at -3.474191 0.1246) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a4a80e68-9a9c-4dac-84a7-a9f3c47a0961)
     )

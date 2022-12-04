@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "teensy")(type "Legacy")(uri "/Users/neohaojun/Documents/robocup/8076-robotics/robocup-2023/electrical design/symbols and footprints/teensy_library/teensy.lib")(options "")(descr ""))
+)

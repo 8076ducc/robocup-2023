@@ -4775,9 +4775,9 @@
     (pin "1" (uuid f67469dc-5bad-46a3-954e-027a2fd17d98))
     (pin "2" (uuid 91703374-1d37-43b7-8cd8-0cbac0378525))
     (pin "3" (uuid fa558ca9-d92e-43c0-b884-3eab731a37f7))
-    (pin "4" (uuid c0786825-f14b-492a-b557-e83c186a9ac2))
-    (pin "5" (uuid 610aade5-88a2-49d8-b613-cc98f83a0e8f))
-    (pin "6" (uuid c1a2363b-163b-459d-94f5-77e80b9ce471))
+    (pin "4" (uuid c0786825-f14b-492a-b557-e83c186a9ac3))
+    (pin "5" (uuid 610aade5-88a2-49d8-b613-cc98f83a0e90))
+    (pin "6" (uuid c1a2363b-163b-459d-94f5-77e80b9ce472))
   )
 
   (symbol (lib_id "Device:R_Photo") (at 116.84 55.88 0) (unit 1)

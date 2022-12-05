@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 38b76ac9-8172-4d74-adff-bda5d8c193a9)
+
+  (paper "A4")
+
+  (title_block
+    (title "layer 4  schematic drawing")
+    (date "2022-12-05")
+    (rev "0.1")
+    (company "8076 Robotics")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

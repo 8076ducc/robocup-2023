@@ -8,7 +8,7 @@
     (title "layer 1 schematic drawing")
     (date "2022-12-02")
     (rev "v0.2")
-    (company "8076 robotics")
+    (company "8076 Robotics")
   )
 
   (lib_symbols

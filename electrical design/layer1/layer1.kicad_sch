@@ -2959,7 +2959,7 @@
     (property "Reference" "Y1" (id 0) (at 260.35 137.1599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Crystal" (id 1) (at 260.35 139.6999 90)
+    (property "Value" "8MHz" (id 1) (at 260.35 139.6999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Clocks:CRYSTAL-SMD-5X3.2-2PAD" (id 2) (at 256.54 138.43 0)
@@ -3999,7 +3999,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Female") (at 20.32 116.84 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 86937535-1a00-4375-a966-feffacfd480e)
-    (property "Reference" "J3" (id 0) (at 20.955 109.22 0))
+    (property "Reference" "SANITYCHECK" (id 0) (at 20.955 109.22 0))
     (property "Value" "Conn_01x03_Female" (id 1) (at 20.955 111.76 0))
     (property "Footprint" "" (id 2) (at 20.32 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5110,9 +5110,6 @@
     (path "/8194c88c-cf2c-4eb0-9c11-18aea548dcec"
       (reference "J2") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical")
     )
-    (path "/86937535-1a00-4375-a966-feffacfd480e"
-      (reference "J3") (unit 1) (value "Conn_01x03_Female") (footprint "")
-    )
     (path "/fa77eeda-ce5b-40dc-b111-3164550acfac"
       (reference "R1") (unit 1) (value "ALS-PT19-315C") (footprint "Diode_SMD:D_0201_0603Metric")
     )
@@ -5236,6 +5233,9 @@
     (path "/f8a4bc64-fd5b-45e7-8953-11ca889e9191"
       (reference "R41") (unit 1) (value "10k") (footprint "")
     )
+    (path "/86937535-1a00-4375-a966-feffacfd480e"
+      (reference "SANITYCHECK") (unit 1) (value "Conn_01x03_Female") (footprint "")
+    )
     (path "/f3aee012-2aae-4ec5-a907-35ecf6a2255c"
       (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "")
     )
@@ -5255,7 +5255,7 @@
       (reference "U3") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
     )
     (path "/1dfbef3b-0871-4e82-bc53-1e2b60a4ef56"
-      (reference "Y1") (unit 1) (value "Crystal") (footprint "Clocks:CRYSTAL-SMD-5X3.2-2PAD")
+      (reference "Y1") (unit 1) (value "8MHz") (footprint "Clocks:CRYSTAL-SMD-5X3.2-2PAD")
     )
   )
 )

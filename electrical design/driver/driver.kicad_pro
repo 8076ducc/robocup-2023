@@ -55,7 +55,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|106576000|101289150|b4675fcd-90dd-499b-8feb-46b51a88378c|ff2f00dc-dff2-4a19-af27-f5c793a8d261",
+        "clearance|106576000|101789150|ff2f00dc-dff2-4a19-af27-f5c793a8d261|c8072c34-0f81-4552-9fbe-4bfe60c53e21",
+        "clearance|106576000|104289150|16d5bf81-590a-4149-97e0-64f3b3ad6f52|90fa0465-7fe5-474b-8e7c-9f955c02a0f6",
+        "clearance|106576000|106789150|a6891c49-3648-41ce-811e-fccb4c4653af|2d4d8c24-5b38-445b-8733-2a81ba21d33e",
+        "clearance|106576000|107289150|2d4d8c24-5b38-445b-8733-2a81ba21d33e|a10b569c-d672-485d-9c05-2cb4795deeca",
+        "clearance|106576000|107789150|a10b569c-d672-485d-9c05-2cb4795deeca|db902262-2864-4997-aeff-8abaa132424a",
+        "clearance|106576000|108289150|db902262-2864-4997-aeff-8abaa132424a|b21625e3-a75b-41d7-9f13-4c0e12ba16cb",
+        "clearance|106576000|108789150|b21625e3-a75b-41d7-9f13-4c0e12ba16cb|64256223-cf3b-4a78-97d3-f1dca769968f",
+        "clearance|106576000|109289150|64256223-cf3b-4a78-97d3-f1dca769968f|df93f76b-86da-45ae-87e2-4b691af12b00",
+        "clearance|116006000|101467150|621c8eb9-ae87-439a-b350-badb5d559a5a|b2001159-b6cb-4000-85f5-34f6c410920f",
+        "clearance|116006000|101967150|72cc7949-68f8-4ef8-adcb-a65c1d042672|621c8eb9-ae87-439a-b350-badb5d559a5a",
+        "clearance|116006000|104467150|40b38567-9d6a-4691-bccf-1b4dbe39957b|b45059f3-613f-4b7a-a70a-ed75a9e941e6",
+        "clearance|116006000|106967150|6742a066-6a5f-4185-90ae-b7fe8c6eda52|e3c3d042-f4c5-4fb1-a6b8-52aa1c14cc0e",
+        "clearance|116006000|107467150|4c8704fa-310a-4c01-8dc1-2b7e2727fea0|6742a066-6a5f-4185-90ae-b7fe8c6eda52",
+        "clearance|116006000|107967150|a6dc1180-19c4-432b-af49-fc9179bb4519|4c8704fa-310a-4c01-8dc1-2b7e2727fea0",
+        "clearance|116006000|108467150|2151a218-87ec-4d43-b5fa-736242c52602|a6dc1180-19c4-432b-af49-fc9179bb4519",
+        "clearance|116006000|108967150|6aa022fb-09ce-49d9-86b1-c73b3ee817e2|2151a218-87ec-4d43-b5fa-736242c52602",
+        "clearance|116006000|109467150|7e498af5-a41b-4f8f-8a13-10c00a9160aa|6aa022fb-09ce-49d9-86b1-c73b3ee817e2"
+      ],
       "meta": {
         "version": 2
       },
@@ -104,7 +123,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 1.0999999999999999,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -346,7 +365,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VNH5050A (test).kicad_pro",
+    "filename": "driver.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -378,7 +397,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "VNH5050A (test).net",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -425,7 +444,7 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "86a34a44-7c70-4e47-9fec-fef5da26f154",
       ""
     ]
   ],

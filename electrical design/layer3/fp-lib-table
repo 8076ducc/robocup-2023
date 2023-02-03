@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name "teensy")(type "KiCad")(uri "/Users/neohaojun/Documents/robocup/8076-robotics/robocup-2023/electrical design/symbols and footprints/teensy_library/teensy.pretty")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "/Users/neohaojun/Documents/robocup/8076-robotics/robocup-2023/electrical design/symbols and footprints/teensy 4.0/teensy.pretty")(options "")(descr ""))
+  (lib (name "Switches")(type "KiCad")(uri "/Users/neohaojun/Documents/robocup/8076-robotics/robocup-2023/electrical design/symbols and footprints/SparkFun-KiCad-Libraries/Footprints/Switches.pretty")(options "")(descr ""))
+  (lib (name "DEV-15583")(type "KiCad")(uri "/Users/neohaojun/Documents/robocup/8076-robotics/robocup-2023/electrical design/symbols and footprints/DEV-15583")(options "")(descr ""))
+  (lib (name "XT60PW-M")(type "KiCad")(uri "/Users/neohaojun/Documents/robocup/8076-robotics/robocup-2023/electrical design/symbols and footprints/XT60PW-M")(options "")(descr ""))
 )

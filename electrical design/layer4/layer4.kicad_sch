@@ -6,8 +6,8 @@
 
   (title_block
     (title "layer 4  schematic drawing")
-    (date "2023-01-29")
-    (rev "0.3")
+    (date "2023-02-12")
+    (rev "1.0")
     (company "8076 Robotics")
   )
 
@@ -1539,7 +1539,7 @@
   (symbol (lib_id "power:GND") (at 35.56 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 54b68426-a0ca-4bb3-9290-4735fe280002)
-    (property "Reference" "#PWR?" (id 0) (at 41.91 151.13 0)
+    (property "Reference" "#PWR0101" (id 0) (at 41.91 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 39.37 151.1299 90)
@@ -1576,7 +1576,7 @@
     (uuid 5a7ba987-f39e-4381-9b8f-5f907409fe0a)
     (property "Reference" "J1" (id 0) (at 31.115 143.51 0))
     (property "Value" "Conn_01x03_Male" (id 1) (at 31.115 146.05 0))
-    (property "Footprint" "" (id 2) (at 30.48 151.13 0)
+    (property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" (id 2) (at 30.48 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.48 151.13 0)
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "power:+5V") (at 35.56 148.59 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d8df21ba-053b-45ed-8e77-c5f3a40b7fd4)
-    (property "Reference" "#PWR?" (id 0) (at 31.75 148.59 0)
+    (property "Reference" "#PWR0102" (id 0) (at 31.75 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 39.37 148.5899 90)
@@ -2211,10 +2211,10 @@
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/54b68426-a0ca-4bb3-9290-4735fe280002"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/d8df21ba-053b-45ed-8e77-c5f3a40b7fd4"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
     )
     (path "/063c0627-ff19-45c9-9ddb-6bd81a0d2d41"
       (reference "C1") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2361,7 +2361,7 @@
       (reference "D24") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/5a7ba987-f39e-4381-9b8f-5f907409fe0a"
-      (reference "J1") (unit 1) (value "Conn_01x03_Male") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
     )
   )
 )

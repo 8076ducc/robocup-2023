@@ -1,54 +1,51 @@
-#include <Arduino.h>
-
-// #define m1PWM 2
-// #define m2PWM 3
-// #define m3PWM 4
-// #define m4PWM 5
-// #define lidarPWM 6
-// #define dribblerPWM 18
-
-// #define m1INA 9
-// #define m2INA 10
-// #define m3INA 11
-// #define m4INA 12
-
-// #define L1SERIAL Serial1
-// #define L4SERIAL Serial2
-// #define IMUSERIAL Serial3
-// #define BTSERIAL Serial4
-// #define CAMSERIAL Serial5
+#include <main.h>
+#include <camera.cpp>
+#include <imu.cpp>
+#include <lidar.cpp>
+#include <lightRing.cpp>
+#include <motion.cpp>
+#include <serial.cpp>
 
 void setup() {
-  // pinMode(m1PWM, OUTPUT);
-  // pinMode(m2PWM, OUTPUT);
-  // pinMode(m3PWM, OUTPUT);
-  // pinMode(m4PWM, OUTPUT);
-  // pinMode(lidarPWM, OUTPUT);
-  // pinMode(dribblerPWM, OUTPUT);
+  pinMode(m1PWM, OUTPUT);
+  pinMode(m2PWM, OUTPUT);
+  pinMode(m3PWM, OUTPUT);
+  pinMode(m4PWM, OUTPUT);
+  pinMode(lidarPWM, OUTPUT);
+  pinMode(dribblerPWM, OUTPUT);
 
-  // pinMode(m1INA, OUTPUT);
-  // pinMode(m2INA, OUTPUT);
-  // pinMode(m3INA, OUTPUT);
-  // pinMode(m4INA, OUTPUT);
+  analogWrite(lidarPWM, 255);
 
-  Serial.begin(9600);
+  pinMode(m1INA, OUTPUT);
+  pinMode(m2INA, OUTPUT);
+  pinMode(m3INA, OUTPUT);
+  pinMode(m4INA, OUTPUT);
+
+  pinMode(led, OUTPUT);
+  digitalWrite(led, HIGH);
+
+  #ifdef DEBUG
+  
+  Serial.begin(256000);
   while(!Serial) {}
   Serial.println("Initialising...");
+  
+  #endif
 
-  // Serial1.begin(9600);
-  pinMode(0, INPUT);
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(10000);
-  digitalWrite(LED_BUILTIN, LOW);
+  L1SERIAL.begin(9600);
+	L4SERIAL.begin(256000);
+	IMUSERIAL.begin(115200);
+  BTSERIAL.begin(115200);
+	CAMSERIAL.begin(1000000);
 }
 
 void loop() {
-  // if (Serial2.available() > 0) {
-  //   Serial.print(Serial2.read());
-  // }
+  int xComponent = correctX();
+  int yComponent = correctY();
+  int rotationComponent = correctBearing();
 
-  digitalWrite(LED_BUILTIN, digitalRead(0));
-  // while (Serial1.available() > 0) {
-  //   Serial.print(Serial1.read());
-  // }
+  int speed = 0;
+  int direction = 0;
+
+  move(speed, direction, rotationComponent)
 }
